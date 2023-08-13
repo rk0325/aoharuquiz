@@ -1,0 +1,26 @@
+<div class="header">
+    <div class="container">
+        <a href="/" class="brand-name">青春クイズ</a>
+    </div>
+</div>
+<main class="content-wrapper">
+<h1>結果</h1>
+<p>あなたのスコア：<%= @score %> / <%= Quiz.count %></p>
+
+<h2>正解</h2>
+<p>1問目  ぜんりゃくぷろふぃーる</p>
+<p>2問目  きせき</p>
+<p>3問目  ぴかちゅう</p>
+<p>4問目  ばとるえんぴつ</p>
+<p>5問目  せいしゅんあみーご</p>
+<p>6問目  とうほうしんき</p>
+<p>7問目  せいうん</p>
+<p>8問目  せいじゅん</p>
+<p>9問目  せのじゅん</p>
+<p>10問目  せいしゅん</p>
+
+<p>遊んでくださりありがとうございました！</p>
+
+<%= link_to "Twitterで共有する", "https://twitter.com/share?url=#{root_url}&text=私のスコアは#{@score}点でした！ #ミニアプリWeek", target: "_blank" %>
+<%= link_to "もう1回やってみる！", quizzes_path %>
+</main>
