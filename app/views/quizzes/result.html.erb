@@ -21,6 +21,6 @@
 
 <p>遊んでくださりありがとうございました！</p>
 
-<%= link_to "Twitterで共有する", "https://twitter.com/share?url=#{root_url}&text=私のスコアは#{@score}点でした！ #ミニアプリWeek", target: "_blank" %>
+<%= link_to "Twitterで共有する", "https://twitter.com/share?url=#{root_url}&text=#{CGI.escape("私のスコアは#{@score}点でした！ #青春クイズ")}", target: "_blank" %>
 <%= link_to "もう1回やってみる！", quizzes_path %>
 </main>
