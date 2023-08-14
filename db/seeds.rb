@@ -1,7 +1,10 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
-#   Character.create(name: "Luke", movie: movies.first)
+Quiz.create!(question: "「元祖SNS」とも言われる、質問に答える形式で自分のプロフィールを作り、それを友人に見せたり、ゲストブックでほかの人と絡んだりするWebサイト作成サービスといえば？", answer: "ぜんりゃくぷろふぃーる", hint: "mixiではありません。")
+Quiz.create!(question: "ドラマ『ROOKIES』の主題歌になったGReeeeNの曲のタイトルは？", answer: "きせき", hint: "明日 今日よりも好きになれる〜♪")
+Quiz.create!(question: "『ポケットモンスター』シリーズに登場するサトシのパートナーのポケモンといえば？", answer: "ぴかちゅう", hint: "◯◯◯◯◯！10まんボルトだ！")
+Quiz.create!(question: "主にゲーム『ドラゴンクエスト』のものが有名な、鉛筆を転がして上向きになった面を乱数として使用するゲームは何？", answer: "ばとるえんぴつ", hint: "◯◯◯えんぴつ")
+Quiz.create!(question: "ドラマ『野ブタ。をプロデュース』の主題歌といえば？", answer: "せいしゅんあみーご", hint: "SI 俺達はいつでも2人で1つだった〜♪")
+Quiz.create!(question: "アニメ『ONE PIECE』の主題歌である「Share The World」を歌っている韓国の男性アーティストの名前は？", answer: "とうほうしんき", hint: "◯◯◯◯しんき")
+Quiz.create!(question: "「君がみた光、ぼくがみた希望」何のうた？", answer: "せいうん", hint: "お線香のCMソングです。")
+Quiz.create!(question: "「清らかでまじりけのないこと」を意味する漢字2文字の言葉は？", answer: "せいじゅん", hint: "◯◯派女優")
+Quiz.create!(question: "身長の低い人が前、高い人が後ろになる並び方を何という？", answer: "せのじゅん", hint: "◯◯じゅん")
+Quiz.create!(question: "2問目の2文字目、5問目の2文字目、6問目の5文字目、3問目の4文字目、1問目の2文字目を足すとできる言葉は？", answer: "せいしゅん", hint: "きせき、せいしゅんあみーご、とうほうしんき、ぴかちゅう、ぜんりゃくぷろふぃーる…？")

@@ -2,7 +2,7 @@ class QuizzesController < ApplicationController
   before_action :set_initial_session, only: [:show]
 
   def index
-    @quizzes = Quiz.all
+    @quizzes = Quiz.order(created_at: :desc)
   end
 
   def show

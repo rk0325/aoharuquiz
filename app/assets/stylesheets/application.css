@@ -37,7 +37,7 @@ body::before {
 
 /* ヘッダーのスタイル */
 .header {
-  background-color: #7ec1ed;
+  background-color: #6ab4e5;
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
   height: 70px;  /* 高さを固定 */
   position: fixed;
