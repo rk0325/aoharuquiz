@@ -78,3 +78,38 @@ body::before {
   width: 100%;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  position: relative;  /* この行を追加 */
+}
+
+body {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 3;
+  font-family: 'Hiragino Maru Gothic Pro', 'ヒラギノ丸ゴシック Pro', 'Hiragino Maru Gothic ProN', 'ヒラギノ丸ゴシック ProN', sans-serif;
+}
+
+body::before {
+  content: "";
+  position: fixed; /* absoluteからfixedに変更 */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('background-image.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  opacity: 0.4;
+  z-index: -1;
+}
